@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Forum", serif;
 }
 
 .hero {
@@ -28,6 +29,7 @@ body {
 .hero .navbar p {
   font-size: 2rem;
   font-weight: bold;
+  margin: 0;
 }
 
 .hero .navbar .contact {
