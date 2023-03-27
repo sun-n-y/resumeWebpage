@@ -42,3 +42,14 @@ body {
 .hero .navbar .contact:hover {
   opacity: 0.8;
 }
+
+.hero .hero-content {
+  padding: 0 15%;
+}
+
+.tagline {
+  font-size: 4.5rem;
+  color: white;
+  letter-spacing: 2px;
+  padding: 32px 0;
+}
