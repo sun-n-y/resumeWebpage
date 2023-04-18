@@ -164,3 +164,37 @@ footer img {
   height: 2rem;
   margin: 0 8px;
 }
+
+@media only screen and (max-width: 1000px) {
+  .hero .hero-content,
+  .blog-content,
+  .events-content {
+    padding: 0 5%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .tagline {
+    font-size: 3.5rem;
+  }
+  .two-column-section > p {
+    width: 100%;
+  }
+  .two-column-section .skills {
+    width: 100%;
+  }
+
+  .section-heading {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .tagline {
+    font-size: 3rem;
+  }
+  .links {
+    display: none;
+  }
+}
